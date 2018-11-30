@@ -194,10 +194,6 @@ body {
 
 
 
-
-
-
-
 main {
 	padding: 2rem;
 	max-width: 1000px;
@@ -205,17 +201,45 @@ main {
 }
 
 	#about p {
-		color: red;
-	}
+		color:black;
+		background-color:pink;
+		margin: 20px;
+		padding:40px;
+}
+		
 
 	#contact p {
-		color: blue;
-	}
+		color:black;
+		background-color:pink;
+		Margin: 20px;
+		padding: 50px;
+}
+body{
+	background-color:#e0e0e0;
+}
 
-	#gallery p {
-		color: green;
-	}
+		
 
-	#portfolio p {
-		color: deeppink;
-	}
+		
+		
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    min-height: 230px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
